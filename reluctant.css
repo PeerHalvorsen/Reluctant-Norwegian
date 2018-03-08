@@ -1,0 +1,362 @@
+header, nav, main, footer, aside{
+	display: block;
+}
+body {
+	margin: 0;
+	background-color: #F5F3EE;
+	background-image: url(futhark2.png);
+}
+
+header {
+	background-color: #7D1935;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 0;
+	height: 120px;
+	padding: 0 20px;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+}
+
+header h1, h2{
+	margin:auto;
+}
+
+header h3 {
+	font-style: italic;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+main{
+	margin-top: 0;
+	margin-right:210px; 
+	margin-bottom:0; 
+	margin-left: 140px;
+	padding: 20px 20px 20px 20px;
+	background-color: #F5F3EE;
+	color: #7D1935;
+	max-height: 480px;
+	font-family: Century Gothic, sans-serif;
+}
+
+main p{
+	margin-top: 1px;
+	margin-left: 20px;
+	overflow: auto;
+}
+
+main h3{
+	text-align: left;
+	margin-bottom: 2px;
+}
+
+nav {
+	background-color: #4A96AD;
+	float: left;
+	width: 230px;
+	margin-right: 20px;
+	height: 480px;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 1.2em;
+	border-right: 2px solid #7D1935;
+}
+
+
+footer{
+	font-size: .70em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	clear: both;
+	margin-top: 0;
+	background-color: #7D1935;
+	color: #FFFFFF;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+}
+
+footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover, nav a:focus{
+	color:#7D1935;
+	font-style: italic;
+}
+
+nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover, nav a:focus{
+	color:#7D1935;
+	font-style: italic;
+}
+
+dt {
+	text-decoration: underline;
+}
+
+dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+nav ul li{
+	padding-bottom: 5px;
+}
+
+nav img{
+	margin: 20px;
+}
+
+#container { 
+	width: 98%;
+	background-color: #F5F3EE;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper {
+	width: 80%;
+	background-color: #7D1935;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+table {
+	margin: auto;
+	border: 3px solid #7D1935;
+	border-spacing: 0;
+}
+
+th, td {
+	border: 1px solid #7D1935;
+	font-size: .9em;
+	text-align: center;
+}
+
+thead {
+   font-size: 1.2em;
+   background-color: #7D1935;
+   color:#FFFFFF;
+}
+
+tr:nth-of-type(even) {
+   /*/background-color: #afa7a5;/*/
+}
+
+caption {
+	font-size: 1.3em;
+}
+
+}
+
+.mobile{
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+body{
+	margin: 0;
+}
+
+
+main{
+		padding: auto;
+		margin: auto;
+		font-size: 90%;
+		text-align: center;
+}
+
+main h3{
+	text-align: center;
+}
+
+main,nav{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+nav{
+	float: none;
+	width: auto;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	border-bottom: 2px solid #462c1f;
+	border-right: none;
+}
+
+nav img{
+	display: none;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.2em;
+	margin: -10px;
+	}
+	
+nav a{
+	padding: 1em;
+	font-size: .7em;
+	width: auto;
+	font-weight: bold;
+	border-style: none;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+aside{
+	float: none;
+	width: auto;
+	height: 0;
+	background-color: #000000;
+}
+aside img{
+	display: none;
+}
+
+table {
+	margin-bottom: 10px;
+}
+
+
+
+#container {
+		width: auto;
+		min-width: 0;
+		margin-right: auto;
+		margin-left: auto;
+}
+#wrapper {
+		width: auto;
+		min-width: 0;
+		margin-right: 100px;
+		margin-left: 100px;
+}
+
+.mobile {
+      display: none;
+   }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+body{
+	margin: 0;
+	background-image: none;
+}
+
+header {
+	height: auto;
+}
+
+header h1{
+	text-decoration: none;
+}
+
+header h2,h3{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+main{
+		padding: auto;
+		margin: auto;
+		font-size: 90%;
+		text-align: center;
+}
+
+main h3{
+	text-align: center;
+	display: inline;
+}
+
+main, nav{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+nav{
+	float: none;
+	width: auto;
+	height: auto;
+	margin: auto;
+	border-bottom: 2px solid #462c1f;
+	border-right: none;
+}
+
+nav li{
+	display: block;
+}
+nav img{
+	display: none;
+}
+	
+nav a{
+	padding: 10px;
+	font-size: .7em;
+	width: auto;
+	font-weight: bold;
+	border-bottom: 1px solid #462c1f;
+	display: block;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+aside{
+	float: none;
+	width: auto;
+	height: 0;
+	background-color: #000000;
+}
+aside img{
+	display: none;
+}
+
+table {
+	margin-bottom: 10px;
+}
+
+#container {
+		width: auto;
+		min-width: 0;
+		margin-right: auto;
+		margin-left: auto;
+}
+#wrapper {
+		width: auto;
+		min-width: 0;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+.mobile {
+      display: block;
+   }
+   
+.desktop {
+      display: none;
+   }
+
+}
